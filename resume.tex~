@@ -1,0 +1,155 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10.2pt,letterpaper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{black}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Nicholas W.}{Simoneaux}
+\title{Resum\'{e}}                               % optional, remove / comment the line if not wanted
+\address{2440 Eliot St.}{Denver, CO 80211}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone{504.432.2318}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{n.simoneaux@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{``The Things to do are: the things that need doing, that you see need to be done, and that no one else seems to see need to be done.'' - Buckminster Fuller}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Summary}
+\hspace*{4ex} I am a developer, artist, and educator originally from New Orleans. I am passionate about affecting my communities in a positive way. I seek learning and intellectual development, and find great joy in sharing my understanding with others. I hope to motivate and lead others, and am excited by the way others inspire and challenge me. I enjoy immersing myself in the cultures I find: professionally, locally, and world-around via the Internet.
+
+\section{Experience}
+\cventry{2016-2017}{CTE Instructor}{Abraham Lincoln High School}{Denver, CO}{}{
+  \vspace*{0.1ex}
+  Denver Public School Career \& Technical Educator, delivering Computer Science topics. Established student radio station, implemented project-based learning, and participated as an advisor to the ALHS Colorado Technical Students Association chapter.
+  \begin{itemize}
+   \vspace*{1ex}
+  \item Instructed Web Design course featuring HTML, Javascript, CSS, and Github.
+  \item Provided Exploring Computer Science course including server administration, virtualization, media production, and streaming technologies.
+  \item Delivered a survey course called "Digital Pathways" to English Language Learners (circuitry, robotics, visual programming languages, web design).
+  \end{itemize}
+}
+  \vspace*{0.4ex}
+%\cventry{2016}{Developer}{booj}{Denver, CO}{}{
+%  \vspace*{0.1ex}
+%  Developer at boutique real estate data syndication \& website company. Focus on data retrieval from various MLS boards via RETS, supporting front-end developers regarding data-related domain concerns. Primary technologies used: Unix, Python, MySQL.
+%  \begin{itemize}
+%      \vspace*{1ex}
+%\item Implementation of RETS migrations (MLS board's change of RETS provider).
+%\item Bug identification and resolution in a rapid and client-focused workflow.
+%\item Development of XML feeds for Zillow, migration of clients to Zillow ``ZIF'' specification, support for additional syndication outets (Christie's Auction House, Luxury Portfolio, et al.)
+%\end{itemize}}
+%\vspace*{0.4ex}
+
+\cventry{2014--2015}{Teacher \& IT Administrator}{Jesuit High School}{New Orleans, LA}{}{
+  \vspace*{0.1ex}
+  8th grade Computer Literacy teacher. Responsible for curriculum design, lesson planning, classroom education, creating learning assessments. Educated students on topics such as: responsible computing (open vs. closed source, terms \& license agreements, user rights); introduction to microcomputers \& microcontrollers (Raspberry Pi, Arduino).
+  \begin{itemize}
+      \vspace*{1ex}
+\item Coached JV Robotics (Lego Mindstorms - First Lego League), moderated Programming Club.
+\item Member of the Computer Science Teachers Association.
+  \end{itemize}
+  \vspace*{1ex}
+  Served as IT Administration for entire campus, supporting staff, students, and faculty. Provided guidance and consultation regarding learning management systems.
+}
+\vspace*{0.4ex}
+
+\cventry{2013--2014}{Systems Analyst}{Loyola University}{Chicago, IL}{}{
+ \vspace*{0.1ex}
+  Member of ITS team, supporting internal departments within the organization in the area of: system integration; application management, maintenance, and migration; custom software development.
+  \begin{itemize}
+      \vspace*{1ex}
+  \item Implemented parking management system vendor solution.
+  \item Provided analysis for course-enrollment \& campus safety (access management) integration.
+  \item Lead requirements gathering \& user acceptance testing for internal HR application.
+  \end{itemize}}
+\vspace*{0.4ex}
+
+\cventry{2010--2012}{Consultant}{Red Hat, Inc.}{Chicago, IL}{}{
+\vspace*{0.1ex}
+  Middleware consultant, primarily responsible for implementing Java software on a RHEL/JBoss platform. Specific focus on legacy systems and business logic migration. Developed and identified software requirements via code investigation and client interview. Performed user acceptance testing and user training.
+  \begin{itemize}
+      \vspace*{1ex}
+  \item Travel weekly at 90--100\% optimization, between Chicago, IL and Cleveland, OH.
+  \item Successfully documented and performed integration with in-place client systems and developers.
+  \item Received Red Hat Certified JBoss Application Administrator designation.
+\end{itemize}}
+
+\section{Education}
+\cventry{2010}{M.S. Computer Science}{Loyola University Chicago}{}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2009}{B.S. Computer Science,  B.A. Classics (Latin)}{Loyola University Chicago}{}{}{}
+
+
+%\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+%\date{January 01, 1984}
+%\opening{Dear Sir or Madam,}
+%\closing{Yours faithfully,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+
+%Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+
+%Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+%Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+
+%Albert Einstein discovered that $e=mc^2$ in 1905.
+
+%\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+
+%\makeletterclosing
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+%% end of file `template.tex'.
