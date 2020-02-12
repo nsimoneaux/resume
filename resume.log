@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.14)  2 OCT 2019 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.12)  12 FEB 2020 13:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -19,7 +19,7 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/home/nicholas/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -30,7 +30,7 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
-(/home/nicholas/texmf/tex/latex/colortbl/colortbl.sty
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
@@ -129,7 +129,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/home/nicholas/texmf/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip44
@@ -316,7 +316,7 @@ Package: xparse 2018/02/21 L3 Experimental document command parser
 \l__xparse_mandatory_args_int=\count171
 \l__xparse_v_nesting_int=\count172
 )
-(/home/nicholas/texmf/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks17
 \MT@count=\count173
@@ -325,7 +325,7 @@ LaTeX Info: Redefining \textls on input line 793.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
 \MT@listname@count=\count174
 
-(/home/nicholas/texmf/tex/latex/microtype/microtype-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 913.
@@ -334,7 +334,7 @@ LaTeX Info: Redefining \lslig on input line 913.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/home/nicholas/texmf/tex/latex/microtype/microtype.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
 (/home/nicholas/texmf/tex/latex/moderncv/moderncvcollection.sty
@@ -645,7 +645,7 @@ y variant: 1
 \doubleitemcolumnwidth=\skip73
 \listitemsymbolwidth=\skip74
 LaTeX Font Info:    Try loading font information for U+mvs on input line 46.
-(/home/nicholas/texmf/tex/latex/marvosym/umvs.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 \listitemcolumnwidth=\skip75
 \listdoubleitemcolumnwidth=\skip76
 .................................................
@@ -870,7 +870,7 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(/home/nicholas/texmf/tex/latex/microtype/mt-cmr.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -956,7 +956,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 57.
 
-(/home/nicholas/texmf/tex/latex/microtype/mt-mvs.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvheadpicturebox=\box57
@@ -986,20 +986,20 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: C7742BD0E921C951800887395CD727B9;181.
  ) 
 Here is how much of TeX's memory you used:
- 29427 strings out of 494923
- 549211 string characters out of 6180742
+ 29425 strings out of 494923
+ 549396 string characters out of 6180742
  614966 words of memory out of 5000000
  32347 multiletter control sequences out of 15000+600000
- 583400 words of font info for 72 fonts, out of 8000000 for 9000
+ 583317 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  69i,12n,58p,10358b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmro17.pfb></home/nicholas/texmf/fonts/type1/public/ma
-rvosym/marvosym.pfb>
-Output written on resume.pdf (1 page, 177903 bytes).
+mf/fonts/type1/public/lm/lmro17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/marvosym/marvosym.pfb>
+Output written on resume.pdf (1 page, 177812 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
