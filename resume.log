@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.30)  30 MAR 2021 21:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.30)  30 MAR 2021 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,18 +814,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 68.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
  (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: C7742BD0E921C951800887395CD727B9;181.
  ) 
 Here is how much of TeX's memory you used:
- 22145 strings out of 483183
- 401384 string characters out of 5966292
+ 22146 strings out of 483183
+ 401390 string characters out of 5966292
  675770 words of memory out of 5000000
  36714 multiletter control sequences out of 15000+600000
  585383 words of font info for 73 fonts, out of 8000000 for 9000
@@ -837,10 +837,10 @@ are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmro17.pfb></home/nicholas/texmf/fonts/type1/public/ma
 rvosym/marvosym.pfb>
-Output written on resume.pdf (1 page, 177932 bytes).
+Output written on resume.pdf (2 pages, 179597 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
+ 59 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
  16925 words of extra memory for PDF output out of 17280 (max. 10000000)
 
